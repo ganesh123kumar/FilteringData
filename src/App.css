@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  height: 100vh;
+  background: #1b1aaaa1;
+  font-family: 'Aboreto', cursive;
+}
+
+.main_container{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+}
+
+.first_container{
+    display: flex;
+    height: min-content;
+}
+
+#country, #vehicle {
+    width: 160px;
+    height: 30px;
+    margin: 10px;
+    font-size: larger;
+}
+
+#country{
+  margin-left: 2rem !important;
+}
+
+#vehicle{
+  margin-left: 119px !important;
+}
+
+.second_container{
+  margin-top: 30px;
+}
+
+.second_container input{
+    width: 42vh;
+    height: 32px;
+    font-size: larger;
+    margin: auto;
+    text-align: center;
+}
+
+.third_container{
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid black;  
+  justify-content: space-between;
+  width: 600px;
+  margin-left: -38px;
+  margin-bottom: 10px;
+  border-radius: 36px;
+  background: linear-gradient(357deg, #00bcd4, transparent);
+}
+
+.image_item{
+  height: 15vh;
+  display: flex;
+  padding: 20px;
+}
+.image_item img{
+  margin-top: 20px;
+}
+
+.name_email{
+  line-height: 64px;  
+  text-align: center;
+}
+
+.country_vehicle{
+  text-align: center;
+  line-height: 64px;
+  margin-left: 20px;
+  margin-right: 54px;
+}
+.name{
+  font-size: large;
+  font-weight: bold;
+}
+.email{
+  color: white;
+  font-size: large;
+}
+.country_wrapper{
+  font-size: large;  
+}
+
+.button-39{
+margin-top: 20px;
+height: 5vh;
+border-radius: 15px;
+cursor: pointer;
+background-color: #FFFFFF;
+font-size: large;
+}
+.button-39:hover{
+  box-shadow: 1px 3px 13px 4px #fff;
+}
+ 
